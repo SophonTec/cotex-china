@@ -664,7 +664,7 @@ img {
 .team_area {
     width: 30.66%;
     margin-right: 3.82979%;
-    height: 490px;
+    padding-bottom: 5%;
     overflow: hidden;
     text-align: center;
     float: left;
