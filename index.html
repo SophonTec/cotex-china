@@ -11,6 +11,10 @@
   <link href="css/font-awesome.css" rel="stylesheet" type="text/css">
   <link href="css/animate.css" rel="stylesheet" type="text/css">
 
+  <link href="css/fancybox/jquery.fancybox.css" rel="stylesheet">
+  <link href="css/jcarousel.css" rel="stylesheet" />
+  <link href="css/flexslider.css" rel="stylesheet" />
+
   <!--[if lt IE 9]>
     <script src="js/respond-1.1.0.min.js"></script>
     <script src="js/html5shiv.js"></script>
@@ -140,10 +144,10 @@
 
 
   <!--Products-->
-  <section id="products" class="content">
+  <section id="Products" class="content">
 
     <!-- Container -->
-    <div class="container products_title">
+    <div class="container portfolio_title">
 
       <!-- Title -->
       <div class="section-title">
@@ -154,7 +158,7 @@
     </div>
     <!-- /Container -->
 
-    <div class="products-top">
+    <div class="portfolio-top">
     </div>
 
     <!-- Slider -->
@@ -236,123 +240,122 @@
     </div> -->
     <!-- end slider -->
 
-    <!-- Products Wrapper -->
-    <div class="isotope fadeInLeft animated wow center"
-      style="position: relative; overflow: hidden; height: 480px; margin-left: auto; margin-right: auto;"
-      id="product_wrapper">
+    <!-- Products Filters -->
+    <div class="products" style="margin: auto auto auto auto;">
+      <!-- Products Wrapper -->
+      <div class="isotope fadeInLeft animated wow"
+        style="position: relative; overflow: hidden; height: 480px;"
+        id="portfolio_wrapper">
 
-      <!-- Products Item -->
-      <div
-        style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;"
-        class="products-item material one-four isotope-item">
-        <div class="product_img"><img src="img/fabric02.webp" alt="Products 1"> </div>
-        <div class="item_overlay">
-          <div class="item_info">
-            <h4 class="project_name">Fabric Supply</h4>
+        <!-- Products Item -->
+        <div
+          style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;"
+          class="products-item material one-four isotope-item">
+          <div class="product_img"><img src="img/product_fabric.webp" alt="Products 1"> </div>
+          <div class="item_overlay">
+            <div class="item_info">
+              <h4 class="project_name">Fabric Supply</h4>
+            </div>
           </div>
         </div>
-      </div>
-      <!--/Products Item -->
+        <!--/Products Item -->
 
-      <!-- Products Item-->
-      <div
-        style="position: absolute; left: 0px; top: 0px; transform: translate3d(337px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;"
-        class="products-item material one-four isotope-item">
-        <div class="product_img"> <img src="img/printing_paper.jpg" alt="Products 2"> </div>
-        <div class="item_overlay">
-          <div class="item_info">
-            <h4 class="project_name">Digital Printing Paper</h4>
+        <!-- Products Item-->
+        <div
+          style="position: absolute; left: 0px; top: 0px; transform: translate3d(337px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;"
+          class="products-item material one-four isotope-item">
+          <div class="product_img"> <img src="img/printing_paper.png" alt="Products 2"> </div>
+          <div class="item_overlay">
+            <div class="item_info">
+              <h4 class="project_name">Digital Printing Paper</h4>
+            </div>
           </div>
         </div>
-      </div>
-      <!--/Products Item -->
+        <!--/Products Item -->
 
-      <!-- Products Item -->
-      <div
-        style="position: absolute; left: 0px; top: 0px; transform: translate3d(674px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;"
-        class="products-item finished one-four isotope-item">
-        <div class="product_img"> <img src="img/apparel01.png" alt="Products 3"> </div>
-        <div class="item_overlay">
-          <div class="item_info">
-            <h4 class="project_name">Apparels Export</h4>
+        <!-- Products Item -->
+        <div
+          style="position: absolute; left: 0px; top: 0px; transform: translate3d(674px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;"
+          class="products-item finished one-four isotope-item">
+          <div class="product_img"> <img src="img/product_apparel.png" alt="Products 3"> </div>
+          <div class="item_overlay">
+            <div class="item_info">
+              <h4 class="project_name">Apparels Export</h4>
+            </div>
           </div>
         </div>
-      </div>
-      <!--/Products Item-->
+        <!--/Products Item-->
 
-      <!-- Products Item-->
-      <div
-        style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;"
-        class="products-item machine one-four isotope-item">
-        <div class="product_img"> <img src="img/printing_machine01.jpeg" alt="Products 4"> </div>
-        <div class="item_overlay">
-          <div class="item_info">
-            <h4 class="project_name">Digital Printing Machine</h4>
+        <!-- Products Item-->
+        <div
+          style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;"
+          class="products-item machine one-four isotope-item">
+          <div class="product_img"> <img src="img/printing_machine.png" alt="Products 4"> </div>
+          <div class="item_overlay">
+            <div class="item_info">
+              <h4 class="project_name">Digital Printing Machine</h4>
+            </div>
           </div>
         </div>
-      </div>
-      <!-- Products Item -->
+        <!-- Products Item -->
 
-      <!-- Products Item -->
-      <div
-        style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;"
-        class="products-item finished one-four isotope-item">
-        <div class="product_img"> <img src="img/product_hijab.jpg" alt="Products 5"> </div>
-        <div class="item_overlay">
-          <div class="item_info">
-            <h4 class="project_name">Hijab</h4>
+        <!-- Products Item -->
+        <div
+          style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;"
+          class="products-item finished one-four isotope-item">
+          <div class="product_img"> <img src="img/product_hijab.png" alt="Products 5"> </div>
+          <div class="item_overlay">
+            <div class="item_info">
+              <h4 class="project_name">Hijab</h4>
+            </div>
           </div>
         </div>
-      </div>
-      <!--/Products Item -->
+        <!--/Products Item -->
 
-      <!-- Products Item -->
-      <div
-        style="position: absolute; left: 0px; top: 0px; transform: translate3d(337px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;"
-        class="products-item finished one-four isotope-item">
-        <div class="product_img"> <img src="img/product_kidware.jpg" alt="Products 6"> </div>
-        <div class="item_overlay">
-          <div class="item_info">
-            <h4 class="project_name">Kidware</h4>
+        <!-- Products Item -->
+        <div
+          style="position: absolute; left: 0px; top: 0px; transform: translate3d(337px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;"
+          class="products-item finished one-four isotope-item">
+          <div class="product_img"> <img src="img/product_kidware.png" alt="Products 6"> </div>
+          <div class="item_overlay">
+            <div class="item_info">
+              <h4 class="project_name">Kidware</h4>
+            </div>
           </div>
         </div>
-      </div>
-      <!--/Products Item -->
+        <!--/Products Item -->
 
-      <!-- Products Item  -->
-      <div
-        style="position: absolute; left: 0px; top: 0px; transform: translate3d(674px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;"
-        class="products-item material one-four isotope-item">
-        <div class="product_img"> <img src="img/product_yarn.jpg" alt="Products 7"> </div>
-        <div class="item_overlay">
-          <div class="item_info">
-            <h4 class="project_name">Yarn</h4>
+        <!-- Products Item  -->
+        <div
+          style="position: absolute; left: 0px; top: 0px; transform: translate3d(674px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;"
+          class="products-item material one-four isotope-item">
+          <div class="product_img"> <img src="img/product_yarn.png" alt="Products 7"> </div>
+          <div class="item_overlay">
+            <div class="item_info">
+              <h4 class="project_name">Yarn</h4>
+            </div>
           </div>
         </div>
-      </div>
-      <!--/Products Item -->
+        <!--/Products Item -->
 
-      <!-- Products Item -->
-      <div
-        style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;"
-        class="products-item machine one-four isotope-item">
-        <div class="product_img"> <img src="img/prodcut_sock_machine.jpeg" alt="Products 8"> </div>
-        <div class="item_overlay">
-          <div class="item_info">
-            <h4 class="project_name">Sock Machine</h4>
+        <!-- Products Item -->
+        <div
+          style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;"
+          class="products-item machine one-four isotope-item">
+          <div class="product_img"> <img src="img/prodcut_sock_machine.png" alt="Products 8"> </div>
+          <div class="item_overlay">
+            <div class="item_info">
+              <h4 class="project_name">Sock Machine</h4>
+            </div>
           </div>
+          </a>
         </div>
-        </a>
-      </div>
-      <!--/Products Item -->
+        <!--/Products Item -->
 
+      </div>
+      <!--/Products Wrapper -->
     </div>
-    <!--/Products Wrapper -->
-
-    </div>
-    <!--/Products Filters -->
-
-    <div class="product_btm"></div>
+    <!-- Products Filters -->
 
     <div id="project_container">
       <div class="clear"></div>
@@ -373,13 +376,25 @@
       <div class="container">
         <ul class="fadeInRight animated wow">
           <li><a href="javascript:void(0)">
-              <img src="img/country_USA.png" alt="" style="width: 24%; height: auto;"></a></li>
+              <img src="img/country_USA.png" alt="" style="width: 130px; height: auto;"></a></li>
           <li><a href="javascript:void(0)">
-              <img src="img/country_France.png" alt="" style="width: 24%; height: auto;"></a></li>
+              <img src="img/country_France.png" alt="" style="width: 130px; height: auto;"></a></li>
           <li><a href="javascript:void(0)">
-              <img src="img/country_Algeria.png" alt="" style="width: 24%; height: auto;"></a></li>
+              <img src="img/country_Algeria.png" alt="" style="width: 130px; height: auto;"></a></li>
           <li><a href="javascript:void(0)">
-              <img src="img/country_Iraq.png" alt="" style="width: 24%; height: auto;"></a></li>
+              <img src="img/country_Iraq.png" alt="" style="width: 130px; height: auto;"></a></li>
+          <li><a href="javascript:void(0)">
+              <img src="img/country_Egypt.png" alt="" style="width: 130px; height: auto;"></a></li>
+          <li><a href="javascript:void(0)">
+              <img src="img/country_Malaysia.png" alt="" style="width: 130px; height: auto;"></a></li>
+          <li><a href="javascript:void(0)">
+              <img src="img/country_Morocco.png" alt="" style="width: 130px; height: auto;"></a></li>
+          <li><a href="javascript:void(0)">
+              <img src="img/country_Indonesia.png" alt="" style="width: 130px; height: auto;"></a></li>
+          <li><a href="javascript:void(0)">
+              <img src="img/country_saudi_arabic.png" alt="" style="width: 130px; height: auto;"></a></li>
+          <li><a href="javascript:void(0)">
+              <img src="img/country_jordan.png" alt="" style="width: 130px; height: auto;"></a></li>
         </ul>
       </div>
     </div>
@@ -395,7 +410,7 @@
         <div class="inner_section">
           <div class="row">
             <div class=" col-lg-4 col-md-4 col-sm-4 col-xs-12 pull-right">
-              <img src="img/about-img.jpg" class="img-circle delay-03s animated wow zoomIn">
+              <img src="img/about-img.png" class="img-circle delay-03s animated wow zoomIn">
             </div>
             <div class=" col-lg-7 col-md-7 col-sm-7 col-xs-12 pull-left">
               <div class=" delay-01s animated fadeInDown wow animated">
@@ -426,55 +441,44 @@
 
     <div class="container">
       <h2>Departments</h2>
-
-      <div class="team_section clearfix">
+      <div class="clearfix">
         <div class="team_area">
           <div class="team_box wow fadeInDown delay-03s">
             <div class="team_box_shadow"><a href="javascript:void(0)"></a></div>
-            <img src="img/team_showroom.jpg" alt="" style="width: 120%; height: auto">
+            <img src="img/team_showroom.png" alt="" style="width: 120%; height: auto">
           </div>
           <h3 class="wow fadeInDown delay-03s">Showroom</h3>
         </div>
         <div class="team_area">
-          <div class="team_box  wow fadeInDown delay-06s">
+          <div class="team_box wow fadeInDown delay-06s">
             <div class="team_box_shadow"><a href="javascript:void(0)"></a></div>
-            <img src="img/team_finance.jpg" alt="" style="width: 120%; height: auto">
+            <img src="img/team_finance.png" alt="" style="width: 120%; height: auto">
           </div>
           <h3 class="wow fadeInDown delay-06s">Finance</h3>
         </div>
         <div class="team_area">
           <div class="team_box wow fadeInDown delay-09s">
             <div class="team_box_shadow"><a href="javascript:void(0)"></a></div>
-            <img src="img/team_design.jpg" alt="" style="width: 120%; height: auto">
-            <ul>
-              <li><a href="javascript:void(0)" class="fa fa-twitter"></a></li>
-              <li><a href="javascript:void(0)" class="fa fa-facebook"></a></li>
-              <li><a href="javascript:void(0)" class="fa fa-pinterest"></a></li>
-              <li><a href="javascript:void(0)" class="fa fa-google-plus"></a></li>
-            </ul>
+            <img src="img/team_design.png" alt="" style="width: 120%; height: auto">
           </div>
           <h3 class="wow fadeInDown delay-09s">Design</h3>
         </div>
       </div>
 
-      <div class="" style="text-align: left;">
-        <h4>
-          <p> CoTeX Import & Export Co., Ltd. has all functional divisions to help our clients to take advantage of the
-            efficient supply. </p><br />
-          <p> Serving over 20 countries and various product categories, CoTeX Co., Ltd. has a good reputation among
-            clients since its establishment on 2013. </p><br />
-          <p> As a distinguished textile-related trade company, we specialize in exporting machines, yarns, hijabs,
-            scarves, hats, women's garments, and kids' wear to
-            discerning customers across the globe. </p><br />
-          <p> Our commitment to quality, innovation, and customer satisfaction has fueled our growth and positioned us
-            as
-            a
-            trusted name in the industry. </p><br />
-          <p> With a seamless blend of tradition and modernity, we take pride in being a catalyst for the evolution of
-            textiles, setting new benchmarks and embracing the future of global trade. </p>
-        </h4>
-      </div>
-
+      <!-- <div class="" style="text-align: left; margin-top: 0px;"> -->
+      <h4>
+        <p> CoTeX Import & Export Co., Ltd. has all functional divisions to help our clients to take advantage of the
+          efficient supply. </p><br />
+        <p> Serving over 20 countries and various product categories, CoTeX Co., Ltd. has a good reputation among
+          clients since its establishment on 2013. </p><br />
+        <p> As a distinguished textile-related trade company, we specialize in exporting machines, yarns, hijabs,
+          scarves, hats, women's garments, and kids' wear to discerning customers across the globe. </p><br />
+        <p> Our commitment to quality, innovation, and customer satisfaction has fueled our growth and positioned us
+          as a trusted name in the industry. </p><br />
+        <p> With a seamless blend of tradition and modernity, we take pride in being a catalyst for the evolution of
+          textiles, setting new benchmarks and embracing the future of global trade. </p>
+      </h4>
+      <!-- </div> -->
     </div>
 
   </section>
@@ -486,17 +490,6 @@
       <section class="page_section contact" id="contact">
         <div class="contact_section">
           <h2>Contact Us</h2>
-          <div class="row">
-            <div class="col-lg-4">
-
-            </div>
-            <div class="col-lg-4">
-
-            </div>
-            <div class="col-lg-4">
-
-            </div>
-          </div>
         </div>
         <div class="row">
           <div class="col-lg-4 wow fadeInLeft">
@@ -515,17 +508,6 @@
                 <p>customer.service.cotex@gmail.com</p>
               </div>
             </div>
-
-            <!-- <ul class="social_links">
-              <li class="twitter animated bounceIn wow delay-02s"><a href="javascript:void(0)"><i
-                    class="fa fa-twitter"></i></a></li>
-              <li class="facebook animated bounceIn wow delay-03s"><a href="javascript:void(0)"><i
-                    class="fa fa-facebook"></i></a></li>
-              <li class="pinterest animated bounceIn wow delay-04s"><a href="javascript:void(0)"><i
-                    class="fa fa-pinterest"></i></a></li>
-              <li class="gplus animated bounceIn wow delay-05s"><a href="javascript:void(0)"><i
-                    class="fa fa-google-plus"></i></a></li>
-            </ul> -->
           </div>
           <div class="col-lg-8 wow fadeInLeft delay-06s">
             <div class="form">
@@ -549,6 +531,9 @@
     </div>
   </footer>
   <!--/Footer-->
+  <!-- javascript
+    ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
 
   <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
